@@ -287,7 +287,7 @@ export default function AppEN({ onLanguageChange })  {
   transition={{ delay: 0.3, duration: 0.8 }}
 >
   <img
-    src="/developer-hero.png"
+    src={`${import.meta.env.BASE_URL}images/developer-hero.png`}
     alt="Developer working across multiple code screens"
   />
 </motion.div>

@@ -289,7 +289,7 @@ export default function AppFR({ onLanguageChange })  {
   transition={{ delay: 0.3, duration: 0.8 }}
 >
   <img
-    src="/developer-hero.png"
+    src={`${import.meta.env.BASE_URL}images/developer-hero.png`}
     alt="Développeur travaillant sur plusieurs écrans de code"
   />
 </motion.div>
