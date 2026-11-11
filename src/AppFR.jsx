@@ -588,7 +588,7 @@ export default function AppFR({ onLanguageChange })  {
   >
     <div className="service-visual">
       <img
-    src="/images/deploiement.png"
+    src={`${import.meta.env.BASE_URL}images/deploiement.png`}
     alt="Dashboard web et application mobile"
     className="service-image"
   />
