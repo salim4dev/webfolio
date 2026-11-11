@@ -136,10 +136,10 @@ const skillCategories = [
     title: "Front-end",
     Icon: Code2,
     technologies: [
-      { name: "HTML5", logo:  "/icons/html-icon.svg", local: true },
-      { name: "CSS3", logo: "/icons/css-icon.svg", local: true },
-      { name: "JavaScript", logo: "javascript" },
-      { name: "React", logo: "react" },
+      { name: "HTML5", logo: `${import.meta.env.BASE_URL}icons/html-icon.svg`, local: true },
+      { name: "CSS3", logo: `${import.meta.env.BASE_URL}icons/css-icon.svg`, local: true },
+      { name: "JavaScript",  logo: `${import.meta.env.BASE_URL}icons/javascript-icon.svg`, local: true },
+      { name: "React",  logo: `${import.meta.env.BASE_URL}icons/react-icon.svg`, local: true },
     ],
   },
   {
