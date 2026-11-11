@@ -260,7 +260,7 @@ export default function AppFR({ onLanguageChange })  {
       <a className="brand" href="#home" onClick={() => setMenuOpen(false)}><span className="brand-mark"><Code2 size={19}/></span><span>Salim<span className="brand-accent">4DEV</span><small>.portfolio</small></span></a>
       <nav className={menuOpen ? 'nav-open' : ''}>{nav.map(([label,id]) => <a key={id} className={active === id ? 'active' : ''} href={`#${id}`} onClick={() => setMenuOpen(false)}>{lang === 'FR' ? label : ({'Accueil':'Home','À propos':'About','Compétences':'Skills','Projets':'Projects','Services':'Services','Contact':'Contact'}[label])}</a>)}</nav>
       <div className="header-right">
-        <div className="header-socials"><a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={17}/></a><a href="https://linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><span className="linkedin-mark">in</span></a></div>
+        <div className="header-socials"><a href="https://github.com/salim4dev" target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={17}/></a><a href="https://www.linkedin.com/in/salim-ladj/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><span className="linkedin-mark">in</span></a></div>
         <div className="language-switch" aria-label="Language">
 
           <button onClick={() => onLanguageChange('FR')}>FR</button>
@@ -790,7 +790,7 @@ export default function AppFR({ onLanguageChange })  {
       <span>salim.ladj23@gmail.com</span>
     </a>
 
-    <a href="tel:+33XXXXXXXXX" className="contact-detail">
+    <a href="tel:+33651081591" className="contact-detail">
       <Smartphone size={19} />
       <span>+33 6 51 08 15 91</span>
     </a>
@@ -814,10 +814,10 @@ export default function AppFR({ onLanguageChange })  {
     </span>
 
     <div className="social-links">
-      <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">
+      <a href="https://github.com/salim4dev" target="_blank" rel="noreferrer" aria-label="GitHub">
         <Github size={17}/>
       </a>
-      <a href="https://linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+      <a href="https://www.linkedin.com/in/salim-ladj/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
         <span className="linkedin-mark">in</span>
       </a>
     </div>
