@@ -478,7 +478,7 @@ export default function AppEN({ onLanguageChange })  {
   >
     <div className="service-visual">
   <img
-    src="/images/customdev.jpg"
+    src={`${import.meta.env.BASE_URL}images/customdev.jpg`}
     alt="Web dashboard and mobile application"
     className="service-image"
   />
@@ -514,7 +514,7 @@ export default function AppEN({ onLanguageChange })  {
   >
     <div className="service-visual">
       <img
-    src="/images/devmobile.png"
+    src={`${import.meta.env.BASE_URL}images/devmobile.png`}
     alt="Web dashboard and mobile application"
     className="service-image"
   />
@@ -550,7 +550,7 @@ export default function AppEN({ onLanguageChange })  {
   >
    <div className="service-visual">
       <img
-    src="/images/service-integration.png"
+    src={`${import.meta.env.BASE_URL}images/service-integration.png`}
     alt="Web dashboard and mobile application"
     className="service-image"
   />
@@ -586,7 +586,7 @@ export default function AppEN({ onLanguageChange })  {
   >
     <div className="service-visual">
       <img
-    src="/images/deploiement.png"
+    src={`${import.meta.env.BASE_URL}images/deploiement.png`}
     alt="Web dashboard and mobile application"
     className="service-image"
   />

@@ -480,7 +480,7 @@ export default function AppFR({ onLanguageChange })  {
   >
     <div className="service-visual">
   <img
-    src="/images/customdev.jpg"
+    src={`${import.meta.env.BASE_URL}images/customdev.jpg`}
     alt="Dashboard web et application mobile"
     className="service-image"
   />
@@ -516,7 +516,7 @@ export default function AppFR({ onLanguageChange })  {
   >
     <div className="service-visual">
       <img
-    src="/images/devmobile.png"
+    src={`${import.meta.env.BASE_URL}images/devmobile.png`}
     alt="Dashboard web et application mobile"
     className="service-image"
   />
@@ -552,7 +552,7 @@ export default function AppFR({ onLanguageChange })  {
   >
    <div className="service-visual">
       <img
-    src="/images/service-integration.png"
+    src={`${import.meta.env.BASE_URL}images/service-integration.png`}
     alt="Dashboard web et application mobile"
     className="service-image"
   />
