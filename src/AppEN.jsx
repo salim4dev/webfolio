@@ -128,14 +128,14 @@ function CountUp({ end, suffix = "", duration = 1800 }) {
 );
 }
 
-
-
+//{ name: "HTML5", logo:  "/icons/html-icon.svg", local: true },
+//src={`${import.meta.env.BASE_URL}icons/html-icon.svg`}
 const skillCategories = [
   {
     title: "Front-end",
     Icon: Code2,
     technologies: [
-      { name: "HTML5", logo:  "/icons/html-icon.svg", local: true },
+      { name: "HTML5", logo: `${import.meta.env.BASE_URL}icons/html-icon.svg`, local: true },
       { name: "CSS3", logo: "/icons/css-icon.svg", local: true },
       { name: "JavaScript", logo: "javascript" },
       { name: "React", logo: "react" },
