@@ -752,7 +752,7 @@ export default function AppFR({ onLanguageChange })  {
 
       <a
         className="button button-primary"
-        href="mailto:TON_EMAIL"
+        href="mailto:salim.ladj23@gmail.com"
       >
         Parlons de ton projet <ArrowUpRight size={17} />
       </a>
@@ -785,14 +785,14 @@ export default function AppFR({ onLanguageChange })  {
   </div>
 
   <div className="contact-details">
-    <a href="mailto:TON_EMAIL" className="contact-detail">
+    <a href="mailto:salim.ladj23@gmail.com" className="contact-detail">
       <Mail size={19} />
-      <span>TON_EMAIL</span>
+      <span>salim.ladj23@gmail.com</span>
     </a>
 
     <a href="tel:+33XXXXXXXXX" className="contact-detail">
       <Smartphone size={19} />
-      <span>+33 X XX XX XX XX</span>
+      <span>+33 6 51 08 15 91</span>
     </a>
   </div>
 </div>
